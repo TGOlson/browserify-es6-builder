@@ -1,7 +1,9 @@
 {
-  "extends": "eslint-config-airbnb",
+  "rules": {
+    "quotes": [2, "single"]
+  },
   "env": {
-    "browser": true,
-    "node": false
+    "browser": false,
+    "node": true
   }
 }
